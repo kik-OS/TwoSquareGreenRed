@@ -17,11 +17,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L7D-TQ-ITq">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yfl-Ax-giW">
                                 <rect key="frame" x="20" y="463" width="374" height="379"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ja4-D2-c1z">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HBI-vY-tcK">
                                 <rect key="frame" x="20" y="64" width="374" height="379"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                             </view>
@@ -29,15 +29,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray3Color"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="L7D-TQ-ITq" secondAttribute="trailing" constant="20" id="0Nk-4c-iEM"/>
-                            <constraint firstItem="L7D-TQ-ITq" firstAttribute="height" secondItem="ja4-D2-c1z" secondAttribute="height" id="2TV-zo-Mhk"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ja4-D2-c1z" secondAttribute="trailing" constant="20" id="Ada-11-jj1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="L7D-TQ-ITq" secondAttribute="bottom" constant="20" id="Bz3-CZ-DUt"/>
-                            <constraint firstItem="ja4-D2-c1z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="GVg-qv-Nku"/>
-                            <constraint firstItem="L7D-TQ-ITq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Lxa-rN-3CT"/>
-                            <constraint firstItem="L7D-TQ-ITq" firstAttribute="top" secondItem="ja4-D2-c1z" secondAttribute="bottom" constant="20" id="acQ-XD-ovj"/>
-                            <constraint firstItem="L7D-TQ-ITq" firstAttribute="width" secondItem="ja4-D2-c1z" secondAttribute="width" id="li1-Sy-79U"/>
-                            <constraint firstItem="ja4-D2-c1z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="mZK-Zk-Gmx"/>
+                            <constraint firstItem="HBI-vY-tcK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="3H0-Rp-NEn"/>
+                            <constraint firstItem="HBI-vY-tcK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="6OV-ec-yRC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HBI-vY-tcK" secondAttribute="trailing" constant="20" id="D1o-01-Kkj"/>
+                            <constraint firstItem="Yfl-Ax-giW" firstAttribute="top" secondItem="HBI-vY-tcK" secondAttribute="bottom" constant="20" id="DQF-aJ-Gme"/>
+                            <constraint firstItem="Yfl-Ax-giW" firstAttribute="width" secondItem="HBI-vY-tcK" secondAttribute="width" id="Jaf-1n-nqL"/>
+                            <constraint firstItem="Yfl-Ax-giW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="KxO-M3-9i9"/>
+                            <constraint firstItem="Yfl-Ax-giW" firstAttribute="height" secondItem="HBI-vY-tcK" secondAttribute="height" id="L4r-Wg-1af"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yfl-Ax-giW" secondAttribute="trailing" constant="20" id="UHr-xM-pTW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Yfl-Ax-giW" secondAttribute="bottom" constant="20" id="Znt-8e-ovh"/>
                         </constraints>
                     </view>
                 </viewController>
